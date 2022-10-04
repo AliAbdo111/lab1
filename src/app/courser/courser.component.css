@@ -1,0 +1,34 @@
+.galary{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.galary img{
+    width: 300px;
+    height: 400px ;
+    /* padding: 20px; */
+    /* margin: 20px; */
+}
+.content{
+    width: 300px;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+}
+.content p{
+    margin-left: 20px;
+}
+.content button{
+    margin-left: 20px ;
+    background-color: brown;
+    border: none;
+    width: 90px;
+    height: 30px;
+}
+.content button:hover{
+background-color: bisque;
+}
+.content .title{
+   text-align: center   ;
+}

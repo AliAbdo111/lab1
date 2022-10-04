@@ -1,0 +1,19 @@
+<h1>hello App Store </h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam inventore molestiae omnis iure autem impedit porro
+    nisi deleniti, ea suscipit culpa voluptatum perferendis reiciendis
+    soluta, numquam fugiat, excepturi consequuntur totam.</p>
+<div class="container">
+    <div class="galary">
+        <div class=" row">
+            <div class="col-3 " *ngFor="let item of arr">
+                <img src="{{item.img}}">
+                <div class="title">{{item["id"]}}</div>
+                <div class="discraption">{{item.dis}}</div>
+                <p>{{item ["price"]}}</p>
+                <button>add to cart</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- </div>   -->
